@@ -34,7 +34,7 @@
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="9fed666b61f874abd3b8f0e3ee34ccd5ab29c884" />
   <project name="cbftx" path="goproj/src/github.com/couchbase/cbftx" remote="couchbase-priv" revision="46dbb7c6edac7dfef017ae889d7a5b7536ce904d" groups="notdefault,enterprise" />
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="464369d1575097419f8a9af3d59df5e44d7bf041" />
-  <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="083dc4dd2fd992caaaf3c9f1412ca3a8e87d0183" />
+  <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="083dc4dd2fd992caaaf3c9f1412ca3a8e87d0183" groups="notdefault,enterprise" />
   <project name="clog" path="godeps/src/github.com/couchbase/clog" revision="b8e6d5d421bcc34f522e3a9a12fd6e09980995b1" groups="backup" />
   <project name="cobra" path="godeps/src/github.com/spf13/cobra" remote="couchbasedeps" revision="0f056af21f5f368e5b0646079d0094a2c64150f7" />
   <project name="context" path="godeps/src/github.com/gorilla/context" remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" />
@@ -151,7 +151,7 @@
   <project name="term" path="godeps/src/golang.org/x/term" remote="couchbasedeps" revision="7a66f970e0879c3baa7bc9fa168ebe5119c5f693" groups="backup" />
   <project name="testrunner" revision="d0e5c931bd13365db66c35540a4cccabc6548117" upstream="mad-hatter" dest-branch="mad-hatter" />
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="383b2e75a7a4198c42f8f87833eefb772868a56f" upstream="refs/tags/v0.3.7" dest-branch="refs/tags/v0.3.7" groups="backup" />
-  <project name="tlm" revision="4ec6ebd81a2fdbd2be5da4ecb4a1ae0dcf195d03" remote="st-cb0" groups="kv">
+  <project name="tlm" revision="92d345a896e197e82ad5b68face854f9ff817e5f" remote="st-cb0" groups="kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile" />
     <copyfile src="Makefile" dest="Makefile" />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
