@@ -146,7 +146,7 @@
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="12a6c2dcc1e4cb348b57847c73987099e261714b" groups="backup" />
   <project name="testrunner" revision="e334a7457527033c88de551d880201505e1a5c8d" upstream="mad-hatter" dest-branch="mad-hatter" />
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="88f656faf3f37f690df1a32515b479415e1a6769" groups="backup" />
-  <project name="tlm" revision="f5d10f54e6af3545924077518516229ec13e1d52" remote="st-cb0" groups="kv">
+  <project name="tlm" revision="9c4b0d0c105c13b9902f6ecde109c4648ae19629" remote="st-cb0" groups="kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile" />
     <copyfile src="Makefile" dest="Makefile" />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
